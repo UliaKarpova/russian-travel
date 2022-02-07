@@ -1,0 +1,11 @@
+.cover__background {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media (min-width: 1280px) {
+    .cover__background {
+        margin: 0 48px;
+        width: calc(100% - 96px);
+    }
+}

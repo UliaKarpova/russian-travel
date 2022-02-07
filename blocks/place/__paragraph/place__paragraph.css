@@ -1,0 +1,24 @@
+.place__paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26.8px;
+    margin: 0 16px 25px;
+    text-align: left;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .place__paragraph {
+      margin: 0 0 25px;
+    }
+
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
+    }
+    }
+}
+

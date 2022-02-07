@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0 24px;
+        width: calc(100% - 48px);
+        }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0 48px;
+        width: calc(100% - 96px);
+    }
+}

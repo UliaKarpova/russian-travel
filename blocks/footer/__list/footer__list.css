@@ -1,0 +1,9 @@
+.footer__list {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    .footer__list {
+        margin: 0;
+    }
+}
