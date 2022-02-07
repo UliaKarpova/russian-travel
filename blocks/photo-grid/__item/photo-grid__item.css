@@ -8,7 +8,7 @@
     .photo-grid__item {
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         margin: 0;
-        gap: 16x;
+        gap: 16px;
 
     }
   }

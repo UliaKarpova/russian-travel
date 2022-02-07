@@ -11,8 +11,9 @@
  }
 
  @media (min-width: 768px) {
-   .place__link {
-      margin: 0;
+    .place__link {
+       margin: 0;
+   }
  }
 
 

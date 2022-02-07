@@ -20,7 +20,7 @@
         width: calc(100% - 96px);
         margin: 80px 48px 0;
         gap: 48px 32px;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
     }
   }
   
@@ -31,6 +31,6 @@
         width: calc(100% - 196px);
         margin: 80px 148px 0;
         gap: 48px 40px;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
       }
   }
