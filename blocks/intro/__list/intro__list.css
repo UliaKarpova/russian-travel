@@ -2,6 +2,10 @@
   margin: 0 16px 64px;
   padding: 0;
   list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
 }
 
 @media (min-width: 768px) {
