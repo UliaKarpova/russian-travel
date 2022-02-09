@@ -1,4 +1,4 @@
-.photo-grid__item {
+.photo__item {
     list-style: none;
     padding: 0;
     width: 100%;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 768px) {
-    .photo-grid__item {
+    .photo__item {
         margin: 0;
         gap: 16px;
         max-height: 264px;
@@ -14,7 +14,7 @@
   }
   
   @media (min-width: 1024px) {
-    .photo-grid__item {
+    .photo__item {
         gap: 14px;
         max-height: 225px;
     }
@@ -22,7 +22,7 @@
   
   
   @media (min-width: 1280px) {
-    .photo-grid__item {
+    .photo__item {
         gap: 16px;
         max-height: 213px;
     }
