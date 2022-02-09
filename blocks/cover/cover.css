@@ -1,20 +1,23 @@
 .cover {
     position: relative;
-    margin-top: 64px;
+    margin-top: 66px;
     margin-bottom: 64px;
     width: 100%;
-}
+    max-width: 1184px;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
 
 @media (min-width: 768px) {
   .cover {
-    margin-top: 90px;
-    margin-bottom: 88px;
+    margin: 90px auto 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    margin-top: 92px;
-    margin-bottom: 92px;
+    margin: 92px auto;
    }
 }

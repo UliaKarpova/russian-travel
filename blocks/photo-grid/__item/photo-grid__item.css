@@ -2,30 +2,28 @@
     list-style: none;
     padding: 0;
     width: 100%;
+    max-height: 216px;
 }
 
 @media (min-width: 768px) {
     .photo-grid__item {
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         margin: 0;
         gap: 16px;
-
-    }
+        max-height: 264px;
+      }
   }
   
   @media (min-width: 1024px) {
     .photo-grid__item {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin: 0;
         gap: 14px;
+        max-height: 225px;
     }
   }
   
   
   @media (min-width: 1280px) {
     .photo-grid__item {
-        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-        margin: 0;
         gap: 16px;
+        max-height: 213px;
     }
   }

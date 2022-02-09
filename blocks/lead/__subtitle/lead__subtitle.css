@@ -17,11 +17,8 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     .lead__subtitle {
-        font-size: 30px;
-        line-height: 36px;
         margin: 0 auto 64px;
-        max-width: 640px;
     }
 }

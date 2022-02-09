@@ -1,6 +1,8 @@
 .cover__background {
+    background-image: url(../../../images/cover-trains.jpg);
     object-fit: contain;
     width: 100%;
+    min-height: fit-content;
 }
 
 @media (min-width: 1280px) {

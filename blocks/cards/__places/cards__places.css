@@ -1,17 +1,17 @@
-.places {
+.cards__places {
     margin: 64px 0;
     width: 100%;
     padding: 0;
 }
 
 @media (min-width: 768px) {
-    .places {
+    .cards__places {
         margin: 88px 0 0;
     }
   }
   
   @media (min-width: 1024px) {
-    .places {
+    .cards__places {
         margin: 92px 0 0;
     }
   }
